@@ -19,3 +19,6 @@ A lightweight FastAPI service that detects and anonymizes sensitive user data be
 
 ## Use Case
 Designed as a privacy layer for AI applications in domains like banking, healthcare, and customer support.
+
+## Demo
+https://github.com/user-attachments/assets/dab6e30f-3109-4321-8907-954d7a12ce48
