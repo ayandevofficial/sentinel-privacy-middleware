@@ -15,7 +15,7 @@ class DeanonymizeRequest(BaseModel):
 async def anonymize_text(request: AnonymizeRequest):
     results = analyzer.analyze(
         text=request.text, 
-        entities=["PERSON", "EMAIL_ADDRESS", "PHONE_NUMBER", "LOCATION"], 
+        entities=["EMAIL_ADDRESS", "PHONE_NUMBER", ], 
         language='en'
     )
     
